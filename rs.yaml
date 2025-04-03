@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: cart-page-rs
+  namepace: pranavas-ns
+spec: 
+  replicas: 3
+  selector:
+    matchLabels:
+      web: cart
+  template: #defines which application we have to deploy in the cluster(pod definition)
+    metadata:
+      labels:
+        web: cart
+    spec: #defines the behaviour of the pod and its containers
+      containers:
+        - name: cart-container
+          image: muralisocial123/cart-page-test:1.0 
+          ports:
+            - containerPort: 3000

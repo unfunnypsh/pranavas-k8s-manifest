@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        web: cart
+        web: cart 
     spec: 
       containers:
         - name: cart-container

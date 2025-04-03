@@ -12,7 +12,7 @@ spec:
     metadata:
       labels:
         web: cart
-    spec:
+    spec: 
       containers:
         - name: cart-container
           image: muralisocial123/cart/page/test:1.0

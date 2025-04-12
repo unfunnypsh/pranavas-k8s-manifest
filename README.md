@@ -1,0 +1,1 @@
+This repository contains a comprehensive 6-day training plan focused on mastering DevOps practices with AWS. Each day is organized into a dedicated README covering fundamental to advanced topics such as environments, Docker, containerization, orchestration with Kubernetes, cloud-native deployment using AWS services like EC2 and EKS, and observability with Prometheus and Grafana.
